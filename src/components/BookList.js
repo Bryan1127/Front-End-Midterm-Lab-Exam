@@ -17,7 +17,7 @@ const BookList = ({ books, onDelete }) => {
                             </Link>
                             <Link to={`/edit/${book.id}`}>
                                 <button className="edit-button">Edit</button>
-                            </Link>
+                            </Link> 
                             <button onClick={() => onDelete(book.id)} className="delete-button">Delete</button>
                         </div>
                     </div>

@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #121f45 30%, #223971 70%); /* Gradient background */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, #121f45 30%, #223971 70%); /* Gradient background */
     margin: 0;
     padding: 20px;
-    color: #fff; /* Change text color to white for better contrast */
+    color: #000000; /* Change text color to white for better contrast */
 }
 
 h1 {
@@ -51,7 +52,7 @@ h2,h3{
     display: flex;
     flex-wrap: wrap; /* Allow wrapping of items */
     justify-content: flex-start; /* Align items to the left */
-    gap: 15px; /* Optional: Space between cards */
+    gap: 10px; /* Optional: Space between cards */
 }
 
 
@@ -204,8 +205,12 @@ button:active, .add-button:active {
     transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
     font-size: 16px; /* Font size */
     font-weight: bold; /* Bold text */
+    flex-wrap: wrap;
 }
 
+.delete-button{
+    flex-wrap: wrap;
+}
 .view-button:hover, .edit-button:hover {
     background-color: #cc1e4a; /* Change color on hover */
     transform: translateY(-2px); /* Slight lift effect */
@@ -281,7 +286,7 @@ button:active, .add-button:active {
 
 /* Author and Meta Data */
 .book-author, .book-description, .book-details-card p {
-    color: #d1d1d1; /* Light gray for meta info */
+    color: #ffffff; /* Light gray for meta info */
     font-size: 18px;
     margin-bottom: 15px;
     padding: 8px 0;
