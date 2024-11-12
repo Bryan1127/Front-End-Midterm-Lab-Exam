@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     background: linear-gradient(90deg, #121f45 30%, #223971 70%); /* Gradient background */
     margin: 0;
@@ -125,7 +125,7 @@ button:hover {
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .add-button:hover {
@@ -232,7 +232,7 @@ button:active, .add-button:active {
 /* Fixed add button styling */
 .fixed-add-button {
     position: fixed;
-    bottom: 20px;
+    top: 70px;
     left: 20px;
     background-color: #223971;
     color: #fff;
@@ -301,7 +301,7 @@ button:active, .add-button:active {
 /* Description Styling */
 .book-description {
     color: #d1d1d1; /* Light gray for description text */
-    font-style: italic;
+
 }
 
 /* Back Button */
